@@ -1,0 +1,133 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+    .container{
+        padding: 0 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .container{
+        padding: 0 8rem;
+    }
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    z-index: 3;
+    background-color: #000;
+}
+
+header nav ul{
+    position: fixed;
+    top: 7rem;
+    right: -100%;
+    padding: 0 1rem;
+    z-index: 0;
+    width: 40%;
+    background-color: #000;
+    text-align: right;
+    transition: all 300ms ease-in-out;
+}
+
+@media (min-width: 992px) {
+    header nav ul{
+        position: inherit;
+        display: flex;
+        gap: 2rem;
+        width: auto;
+        padding: 0;
+    }
+}
+
+header nav ul.open{
+    right: 0;
+}
+
+header nav .menu-mob{
+    width: 1.5rem;
+}
+@media (min-width: 992px) {
+    header nav .menu-mob{
+        display: none;
+    }
+}
+header nav .menu-mob span{
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+}
+
+header nav .menu-mob span:nth-child(2){
+    margin: .2rem 0;
+}
+
+main{
+    margin-top: 7rem;
+    height: calc(100vh - 7rem);
+    display: flex;
+    align-items: center;
+}
+
+main .hero h1{
+    color: #fca311;
+}
+
+main .hero h2,
+main .hero h3,
+main .hero h1{
+    font-weight: 400;
+}
+
+@media (min-width: 768px) {
+    main .hero h2{
+        font-size: 3rem;
+    }
+
+    main .hero h3{
+        font-size: 2rem;
+    }
+
+    main .hero h1{
+        font-size: 4rem;
+    }
+}
