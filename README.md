@@ -7,12 +7,15 @@ Il progetto consiste nel creare un'applicazione che permetta all'utente di aumen
 ## Directory Tree
 
     .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
+    ├── assets
+        ├── css
+        ├── js
+        ├── images
+    ├── pages
+        ├── about-me.html
+        ├── contact.html
+        ├── projects.html
+    ├── index.html
     └── README.md
 
 
