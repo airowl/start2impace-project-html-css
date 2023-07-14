@@ -1,15 +1,20 @@
 # Start2impact Portfolio HTML & CSS
 > Progetto HTML & CSS.
 
-Questo progetto è stato creato per testare ciò che ho imparato in seguito allo studio della guida JavaScript Basics. </br>
-Il progetto consiste nel creare un'applicazione che permetta all'utente di aumentare o diminuire il valore del counter a seguito dell'utilizzo di determinati pulsanti.
+Questo progetto è stato creato per testare ciò che ho imparato in seguito allo studio della guida HTML & CSS. </br>
+Il progetto consiste nel creare un portfolio di presentazione di me stesso, con progetti e modalità di contatto.
 
 ## Directory Tree
 
     .
     ├── assets
         ├── css
+            ├── about-me.css
+            ├── contact.css
+            ├── index.css
+            ├── projects.css
         ├── js
+            ├── main.js
         ├── images
     ├── pages
         ├── about-me.html
@@ -21,6 +26,6 @@ Il progetto consiste nel creare un'applicazione che permetta all'utente di aumen
 
 ## Links
 
-https://github.com/airowl/js-counter
+https://github.com/airowl/start2impace-project-html-css
 </br>
-https://js-counter-kappa.vercel.app/?vercelToolbarCode=NcD3zmIXbxRFTlb
+https://start2impace-project-html-css.vercel.app/
